@@ -13,7 +13,7 @@ import SignUp from './components/pages/SignUp';
          <Switch>
             <Route path="/" exact component={Home}/>
 
-            <Route path='/Services' component={Services} />
+            <Route path='/Services'  component={(props) => <Services {...props} />} /> 
           <Route path='/Products' component={Products} />
           <Route path='/SignUp' component={SignUp} />
          </Switch>

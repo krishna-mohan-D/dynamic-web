@@ -1,0 +1,35 @@
+
+
+#signup,#login
+{
+    width:100%;background:#2c3e50;
+}
+#signup{
+    height: 560px;
+} 
+
+#login{
+    height:230px;
+}
+
+/* .yellow{
+    background-color:gold;
+} */
+
+
+#signup > input, #signup > button{
+    margin-top:20px;margin-left:105px;height:25px;border:none;border-radius:2px;
+}
+#first,#last,#confirm{
+    width:350px;
+}
+#email{
+    width:350px;
+}
+#password{
+    width:350px;margin-left:102px !important;
+}
+
+
+
+
